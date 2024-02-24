@@ -1,0 +1,13 @@
+package com.example.demo;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.*;
+import org.springframework.web.servlet.*;
+
+@RestController
+public class HelloController {
+	@PostMapping("/hello2")
+	public String sayHello(@RequestParam("name") String name, ModelAndView mv) {
+	    
+		return mv;
+	}
+}

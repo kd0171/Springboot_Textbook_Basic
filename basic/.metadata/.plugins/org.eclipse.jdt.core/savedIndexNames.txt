@@ -12,6 +12,7 @@ INDEX VERSION 1.134+C:\Users\Kenta\Dropbox\Portfolio\2402_portfolio_textbook\bas
 565106803.index
 1548625872.index
 824728887.index
+1371410727.index
 1449656949.index
 267824642.index
 3176872786.index
@@ -22,12 +23,14 @@ INDEX VERSION 1.134+C:\Users\Kenta\Dropbox\Portfolio\2402_portfolio_textbook\bas
 1212448491.index
 256824611.index
 3352052426.index
+3910499189.index
 3707804388.index
 2841421116.index
 3919563184.index
 924966498.index
 1723724637.index
 2018939345.index
+923887623.index
 975435951.index
 2100072822.index
 1055861355.index
@@ -63,6 +66,6 @@ INDEX VERSION 1.134+C:\Users\Kenta\Dropbox\Portfolio\2402_portfolio_textbook\bas
 2232784038.index
 1772552847.index
 4169284075.index
-4219279280.index
+80363132.index
 1812505533.index
 1834408046.index
