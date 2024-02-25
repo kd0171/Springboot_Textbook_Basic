@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>数当てゲーム</title>
+</head>
+
+<style>
+th,td{
+	border: solid 1px;
+}
+table{
+	border-collapse: collapse;
+}
+</style>
+<body>
+	<h1>数当てゲーム</h1>
+	<form action="/challenge" method="post">
+		<p>
+			<input type="text" name="number" placeholder="いくつですか？">	
+		</p>
+		<p>
+			<input type="submit" value="トライ！">
+		</p>
+	</form>
+	<hr>
+	<table>
+		<tr>
+			<th>回数</th>
+			<th>あなたの考え</th>
+			<th>判定</th>
+		</tr>
+		<tr th:each="h:${histories}">
+			<td th:text="${h.seq}"></td>
+			<td th:text="${h.youranswer}"></td>
+			<td th:text="${h.result}"></td>
+		</tr>
+	</table>
+	<p>
+		<a href="/">もう一度最初から</a>
+	</p>
+</body>
+</html>
